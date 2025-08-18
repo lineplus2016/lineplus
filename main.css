@@ -32,6 +32,7 @@ header nav ul li a{
     text-decoration-line: none;
     color: #17171b;
     font-weight: 600;
+    font-size: 0.8vw;
 }
 
 header nav ul li a:visited{
@@ -78,6 +79,26 @@ h3 {
   float: left;
   margin-right: 144px;
 
+}
+
+.subtitle2 {
+  font-weight: 800;
+  font-size: 60px;
+  color: #17171b;
+  margin-right: 144px;
+
+}
+
+.subtext2 {
+  font-weight: 400;
+  font-size: 26px;
+  color: #17171b;
+  margin-top: 10px;
+  position: absolute;
+  bottom: 14%;
+  z-index: 100;
+
+  
 }
 
 .m_subtitle {
@@ -199,6 +220,9 @@ h3 {
     background-image: url(img/message_img.png);
     background-repeat: no-repeat;
     background-size: cover;
+    flex: 1;
+    background-position: center;
+
 }
 
 .slider_mobile img {
@@ -443,6 +467,7 @@ button.loading .button-text {
 
   .web_slider {
     display: none !important;
+    overflow: visible;
   }
 
   /* .slider {
