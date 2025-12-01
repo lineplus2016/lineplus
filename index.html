@@ -3,17 +3,17 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <!-- <script>
-        const path = window.location.pathname;
+    <script>
+        if (window.innerWidth <= 768 &&
+            window.location.pathname !== "/mobile_index.html") {
+            window.location.href = "mobile_index.html";
+        }
 
-if (window.innerWidth <= 768 && !path.includes("mobile_index.html")) {
-    window.location.href = "mobile_index.html";
-}
-
-if (window.innerWidth > 768 && !path.includes("index.html")) {
-    window.location.href = "index.html";
-}
-    </script> -->
+        if (window.innerWidth > 768 &&
+            window.location.pathname !== "/index.html") {
+            window.location.href = "index.html";
+        }
+    </script>
 
     <title>라인플러스</title>
 
